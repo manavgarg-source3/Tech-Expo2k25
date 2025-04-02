@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechExpo 2025</title>
+    <link rel="stylesheet" href="f.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+<!-- Home Page -->     
+<section id="home" class="home-section">
+  <video class="video-bg" autoplay muted  >
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="notification-container">
+    <div class="notification">
+      <span class="icon">ℹ️</span>
+      <span class="message">Payment Deadline: 10th April, 2025. Check Now!!!</span>
+    </div>
+    <div class="notification">
+      <span class="icon">ℹ️</span>
+      <span class="message">Discover Your Path to Success at Teach Expo.</span>
+    </div>
+  </div>
+  
+  <div class="social-photo">
+    <a href="https://www.facebook.com/hmritm/" class="facebook" target="_blank">
+      <img src="facebook.png" alt="" srcset="">
+    </a>
+    <a href="https://www.instagram.com/techexpo_hmritm?igsh=YjMzZ2RjZXZlNTVz&utm_source=ig_contact_invite" class="instagram" target="_blank">
+      <img src="insta1.png" alt="" srcset="">
+    </a>
+    <a href="https://www.linkedin.com/company/hmritm/" class="linkedin" target="_blank">
+      <img src="linkdin.png" alt="" srcset="">
+    </a>
+    <a href="https://chat.whatsapp.com/LX7QKl1AiGSEexcx8zkiKt" class="whatsapp" target="_blank">
+      <img src="watsapp.png" alt="" srcset="">
+    </a>
+  </div>
+  
+  <div class="logo">
+    <a href="home.html">
+      <img src="logo-removebg-preview.png" alt="TechExpo Logo" />
+    </a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-links" id="nav-menu">
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#Timeline">Timeline</a>
+      <!--<a href="#sponsors">Sponsors</a>-->
+      <a href="#Glimpses">Glimpses</a>
+      <a href="#" id="register-link">Register</a>
+    </div>
+  </nav>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+  
+  
+  <div id="registerModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>  
+      <div class="qr-code">
+        <img src="QR_Register-removebg-preview.png" alt="Registration QR Code">
+      </div>
+      <p>Scan the QR code or click the button below to register</p>
+      <a href="https://forms.gle/Z9DoSrttgvgzmrkb9" target="_blank">
+        <button class="register-btn1">Register Now</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-down">Scroll Down ↓</div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about">
+        <div class="head">
+          <h1 class="head1">
+            <div class="white">About</div>
+            <div>Tech Expo'25</div>
+          </h1>
+        </div>
+        <div class="underline"></div>
+        <div class="main">
+          <div class="display">
+            <div class="content">
+              From the spark of the first invention to the marvels of modern
+              technology, human ingenuity has always been the force that drives
+              progress.
+              <span>HMR Techfest 2025</span> proudly presents its theme:
+              <span>"Igniting Tomorrow"</span>—a celebration of the relentless
+              pursuit of knowledge, discovery, and transformation.
+            </div>
+            <div class="content1">
+              <span>Innovation</span> is not just about change; it's about
+              shaping the future. From the invention of the printing press to
+              the rise of <span>artificial intelligence</span>, from the first
+              flight to the dream of interplanetary travel—every breakthrough
+              has been fueled by curiosity and a vision for a better tomorrow.
+            </div>
+            <div class="content2">
+              This year's edition is bigger and better, featuring
+              <span
+                >hackathons, coding competitions, AI workshops, robotics
+                challenges, and interactive panel discussions</span
+              >
+              led by industry experts. Whether you're a tech wizard or just
+              stepping into the digital world, <span>Techfest 2025</span> has
+              something for everyone!
+            </div>
+          </div>
+          <img src="about.jpg" class="banner" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="participants">
+          <div class="red1">100+</div>
+          <div>Participants</div>
+        </button>
+        <button class="events">
+          <div class="red2">6+</div>
+          <div>Events</div>
+        </button>
+        <button class="prize">
+          <div class="red3">🤩</div>
+          <div>Prizes</div>
+        </button>
+        <button class="sponsors">
+          <div class="red4">2</div>
+          <div>Sponsors</div>
+        </button>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="Timeline">
+      <div class="head">
+        <h1 class="head2">
+          <div class="white">Events</div>
+          <div class="colour">Timeline</div>
+        </h1>
+      </div>
+      <div class="underline"></div>
+      <div class="timeline">
+        <!-- Timeline items will be dynamically added here -->
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+      <h1 class="heading">Our <span>Events</span></h1>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="card">
+          <h2>💡 Project Exhibition-Unleash Your Creativity 🎨✨</h2>
+          <p>
+            Showcase your innovative projects to a panel of experts and tech enthusiasts. Present groundbreaking ideas that push the boundaries of technology. Inspire others with your creativity and problem-solving skills!
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees:₹50 and ₹200/Team</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>👨‍💻 Coding Battles–Prove Your Skills 🔥💻</h2>
+          <p>
+            Compete in high-intensity coding challenges against the best programmers. Solve complex problems under time constraints and test your logical thinking. Only the most skilled will emerge victorious!
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees:₹50/Student</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>🎮 Cyber Games–The Ultimate Esports Challenge ⚔️🎯</h2>
+          <p>
+            Engage in thrilling gaming battles across multiple titles. Test your strategy, reflexes, and teamwork to dominate the arena. Compete in.
+            <ul>
+              <li>🏰 Clash Royale-Tactical card-based duels</li>
+              <li>🔫 BGMI – Survival in a battle royale showdown</li>
+              <li>🎯 Valorant–Tactical FPS team battles</li>
+              <li>♟️ Chess – The ultimate strategy showdown</li>
+            </ul>
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees: ₹100/game
+              
+              
+              </span>
+           
+          </div>
+        </div>
+        <div class="card">
+          <h2>🤖 Robomania–Build & Battle Robots 🔧⚙️</h2>
+          <p>
+            Design, build, and program robots to compete in thrilling challenges. Show off your engineering and automation skills in a battle of innovation. Only the best robots will dominate the arena!
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fess: ₹100/student</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>📚 Technical Quiz–Outsmart the Competition 🏆🧠
+          </h2>
+          <p>
+            Test your technical knowledge across multiple domains. Compete against the brightest minds in a fast-paced, intellectually stimulating quiz. Prove you have what it takes to be a tech genius!
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees: ₹50/Student</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>💡 Hacknovate (Ideathon)–Pitch Revolutionary Ideas 🚀🌍</h2>
+          <p>
+            Brainstorm, innovate, and present game-changing ideas to industry experts. Solve real-world problems with creative tech-driven solutions. The best ideas will win recognition and rewards!
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees: ₹200/Team</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>📝 Poetic Resonance–Technology Meets Art 🎭✍️</h2>
+          <p>
+            Blend the beauty of poetry with technology to create a unique artistic expression. Use words to capture the essence of innovation and digital evolution. Let your creativity resonate through rhythm and verse.
+          </p>
+          <div class="action-row">
+            <button class="register-btn">
+              <a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a>
+            </button>
+            <span class="prize-label">Fees: ₹50/student</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors">
+      <div class="sponsors-container">
+        <div class="sponsors-heading">
+          <div class="white">Our</div>
+          <div>Sponsors</div>
+        </div>
+        <div class="sponsors-underline"></div>
+
+        <div class="sponsors-subheading">
+          We are grateful to our sponsors for making this event possible. Their
+          support fuels our terrifying vision.
+        </div>
+
+        <div class="sponsor-section">
+          <div class="sponsor-title">
+            <div class="white">Bronze</div>
+            <div>Sponsors</div>
+          </div>
+          <div class="sponsor-underline"></div>
+          <img
+            class="sponsor-image"
+            src="sponsor-stamp-vector-sign-seal-logo-isolated-white-background-86263619.webp"
+            alt="Bronze Sponsor"
+          />
+          <div class="sponsor-description">XYZ Bronze Sponsor</div>
+        </div>
+
+        <div class="sponsor-section">
+          <div class="sponsor-title">
+            <div class="white">Domain</div>
+            <div>Sponsors</div>
+          </div>
+          <div class="sponsor-underline"></div>
+          <img
+            class="sponsor-image"
+            src="sponsor-stamp-vector-sign-seal-logo-isolated-white-background-86263619.webp"
+            alt="Domain Sponsor"
+          />
+          <div class="sponsor-description">XYZ Domain Sponsor</div>
+        </div>
+
+        <div class="sponsor-section">
+          <div class="sponsor-title">
+            <div class="white">Event</div>
+            <div>Sponsors</div>
+          </div>
+          <div class="sponsor-underline"></div>
+          <img
+            class="sponsor-image"
+            src="sponsor-stamp-vector-sign-seal-logo-isolated-white-background-86263619.webp"
+            alt="Event Sponsor"
+          />
+          <div class="sponsor-description">XYZ Event Sponsor</div>
+        </div>
+      </div>
+    </section>
+    <section id="Glimpses">
+        <div class="sponsors-heading">
+          <div class="white">Some</div>
+          <div>Glimpses</div>
+        </div>
+        <div class="sponsors-underline"></div>
+        <div class="s-head">
+          Take a look at some of the Technical events at HMRITM
+        </div>
+      
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide active">
+              <img src="slider1.png" alt="Event 1" />
+              <div class="caption">Smart India Hackathon</div>
+            </div>
+            <div class="slide">
+              <img src="slider2.png" alt="Event 2" />
+              <div class="caption">Mechanical Workshop</div>
+            </div>
+            <div class="slide">
+              <img src="slider3.png" alt="Event 3" />
+              <div class="caption">Ideathon</div>
+            </div>
+            <div class="slide">
+              <img src="slider4.png" alt="Event 4" />
+              <div class="caption">Ideathon</div>
+            </div>
+          </div>
+      
+          <!-- Navigation Buttons -->
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+      
+          <!-- Dots for navigation -->
+          <div class="dots-container">
+            <span class="dot" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+          </div>
+        </div>
+      </section>
+      
+    <footer class="footer">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <div class="white">Tech</div>
+          <div>Expo'25</div>
+        </div>
+        <p>
+          The annual technical fest of HMRITM. A one-day celebration of
+          technology and innovation.
+        </p>
+        
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Timeline">Timeline</a></li>
+          <li><a href="#Sponsrs">Sponsors</a></li>
+          <li><a href="#events">Events</a></li>
+          
+          <li><a href="https://forms.gle/Z9DoSrttgvgzmrkb9">Register</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact-info">
+        <h3>Contact Us</h3>
+        <p>
+          Plot no.326 HMR Institute of technology and management <br />
+          Hamidpur delhi-110036
+        </p>
+        <p>www.hmritm.ac.in</p>
+        <p>☎ +91 7683073059</p>
+        <p>☎ +91 8586810430</p>
+      </div>
+    </footer>
+    <div class="copy">
+      <p>&copy;All right reserved to Tech Expo25.</p>
+      <p>Build with❤️BY Manav&Team</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
