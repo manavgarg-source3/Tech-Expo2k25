@@ -1010,7 +1010,7 @@ button:hover {
   
   .register-btn:hover {
     background-color: rgb(32, 230, 240);
-    color: #0a0a1a;
+    color: #27c759;
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
   }
@@ -1024,7 +1024,7 @@ button:hover {
   
   .prize-label {
     border: 2px solid #00f7ff;
-    color: #0ff;
+     color: rgb(170, 165, 28);
     padding: 8px 16px;
     border-radius: 5px;
     font-size: 11px;
