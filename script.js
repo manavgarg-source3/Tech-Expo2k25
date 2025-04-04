@@ -30,63 +30,109 @@ const timelineData = [
     // Day 1
     {
         date: 'April 11, 2025',
-        time: '10:00 AM',
-        title: 'Project Exhibition',
-        venue: 'Room 217',
+        time: '9:00 AM - 10:00 AM',
+        title: 'Registration',
+        venue: 'Registration Desk',
+        audience: 'All'
+    },
+    {
+        date: 'April 11, 2025',
+        time: '10:00 AM - 11:00 AM',
+        title: 'Inauguration',    
+        venue: 'Room 101',
+        audience: 'All'
+    },
+    {
+        date: 'April 11, 2025',
+        time: '11:00 AM - 1:00 AM',
+        title: 'Project Exhibition Round 1',
+        venue: 'CSE & IT lab',
         audience: '3rd & 4th Year (All Branches)'
     },
     {
         date: 'April 11, 2025',
-        time: '10:00 AM',
-        title: 'Hacknovate',
-        venue: 'Room 117',
+        time: '11:00 AM - 1:00 AM',
+        title: 'Hacknovate Round 1',
+        venue: 'Room 216',
         audience: '1st & 2nd Year'
     },
     {
         date: 'April 11, 2025',
-        time: '10:00 AM',
+        time: '12:00 AM - 2:00 AM',
         title: 'Robomania',
-        venue: '-',
+        venue: 'Mechanical lab',
         audience: '2nd & 3rd Year (CSE, IT, AIML, AIDS, CSE-CS)'
     },
     {
         date: 'April 11, 2025',
-        time: '11:00 AM - 12:00 PM',
-        title: 'Poetic Resonance',
-        venue: '-',
+        time: '1:00 PM - 2:00 PM',
+        title: 'Coding Battle',
+        venue: 'Labs',
         audience: '2nd & 3rd Year (CSE, IT, AIML, AIDS, CSE-CS)'
     },
     {
         date: 'April 11, 2025',
-        time: '12:30 PM - 2:30 PM',
+        time: '1:00 PM - 2:30 PM',
         title: 'Technical Quiz',
-        venue: '-',
+        venue: 'Room 201',
         audience: '1st & 2nd Year'
     },
-    // Day 2
+    // Day 
     {
-        date: 'April 12, 2025',
-        time: '10:00 AM - 1:00 PM',
-        title: 'Cyber Games',
+        date: 'April 11, 2025',
+        time: '2:00 PM - 4:00 PM',
+        title: 'Project Exhibition Round 2',
         venue: 'CSE & IT Labs',
-        audience: 'Open to All'
+        audience: 'Selected candidates'
     },
     {
-        date: 'April 12, 2025',
-        time: '10:00 AM - 1:00 PM',
-        title: 'Coding Battle',
-        venue: 'CSE & IT Labs',
-        audience: 'Open to All'
+        date: 'April 11 , 2025',
+        time: '2:00 PM - 4:00 PM',
+        title: 'Hacknovate - Round 2',
+        venue: 'Room 216',
+        audience: 'Selected Candidates'
+    },
+   
+    {
+        date: 'April 12 , 2025',
+        time: '9:00 PM - 2:00 PM',
+        title: 'Cyber Games',
+        venue: 'Room 216',
+        audience: 'All'
+    },
+   
+    {
+        date: 'April 12 , 2025',
+        time: '1:00 PM - 2:00 PM',
+        title: 'Poetic Resonance',
+        venue: 'Room 117',
+        audience: 'All'
+    },
+   
+    {
+        date: 'April 12 , 2025',
+        time: '2:00 PM - 3:30 PM',
+        title: 'Project Exhibition Final Round',
+        venue: 'Room 101',
+        audience: 'All'
+    },
+    {
+        date: 'April 12 , 2025',
+        time: '2:00 PM - 3:30 PM',
+        title: 'Hacknovate - Final Round',
+        venue: 'Room 203',
+        audience: 'All'
     },
    
     {
         date: 'April 12, 2025',
-        time: '3:00 PM Onwards',
-        title: 'Valedictory Session',
+        time: '3:30 PM Onwards',
+        title: 'Prize Distribution',
         venue: 'Room 101',
         audience: ''
     }
 ];
+
 
 function createCalendarSVG() {
     return `
