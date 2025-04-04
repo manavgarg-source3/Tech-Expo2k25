@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
     if (scrollPosition > window.innerHeight / 2) {
         aboutSection.classList.add("visible");
     }
-});
+}); 
 document.addEventListener("DOMContentLoaded", function() {
     const section = document.getElementById("tech-expo-timeline");
     const observer = new IntersectionObserver(entries => {
