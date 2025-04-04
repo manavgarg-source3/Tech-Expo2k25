@@ -573,6 +573,7 @@ body {
     height: 50vh; 
     display: flex; 
     margin-left: 50px; 
+    margin-top: 2rem;
 } 
 
 /* Buttons */ 
