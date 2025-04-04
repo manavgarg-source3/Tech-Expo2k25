@@ -1616,7 +1616,7 @@ span {
     height: 500px;
     margin-top: 40px;
     margin-bottom: 30px;
-    margin-left: 320px; /* Original fixed margin */
+    margin-left: 24.5rem; /* Original fixed margin */
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
@@ -1712,7 +1712,7 @@ span {
 }
 
 .s-head {
-    margin-left: 480px;
+   margin-left: 35rem;
     margin-top: 40px;
     font-size: 1rem;
 }
