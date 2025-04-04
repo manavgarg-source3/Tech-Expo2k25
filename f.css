@@ -573,6 +573,7 @@ body {
     height: 50vh; 
     display: flex; 
     margin-left: 50px; 
+     margin-top: 2.5rem;
 } 
 
 /* Buttons */ 
@@ -641,7 +642,7 @@ button:hover {
     .about img {
         margin-left: 0;
         margin-top: 30px;
-        height: 35vh;
+        height: 36vh;
     }
     
     .buttons {
@@ -678,7 +679,7 @@ button:hover {
     }
     
     .about img {
-        height: 30vh;
+        height: 31vh;
     }
     
     .buttons {
