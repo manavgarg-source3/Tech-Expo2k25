@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px 50px;
+    padding: 15px 40px;
     margin-top: 20px;
     margin-left: 10px;
     position: absolute;
@@ -178,7 +178,7 @@ body {
 .logo {
     position: fixed;
     top: 5%;
-    left: 50%;
+    left: 46%;
     transform: translate(-50%, -50%);
     z-index: 1000;
 }
@@ -198,7 +198,7 @@ body {
 /* Navigation Links */
 .nav-links {
     display: flex;
-    gap: 26px;
+    gap: 20px;
 }
   
 .nav-links a {
