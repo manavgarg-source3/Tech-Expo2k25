@@ -25,8 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, { threshold: 0.1 });
     observer.observe(section);
-});
-const timelineData = [
+});const timelineData = [
     // Day 1
     {
         date: 'April 11, 2025',
@@ -61,21 +60,21 @@ const timelineData = [
         time: '12:00 AM - 2:00 AM',
         title: 'Robomania',
         venue: 'Mechanical lab',
-        audience: '2nd & 3rd Year (CSE, IT, AIML, AIDS, CSE-CS)'
+        audience: 'Open to All'
     },
     {
         date: 'April 11, 2025',
         time: '1:00 PM - 2:00 PM',
         title: 'Coding Battle',
         venue: 'Labs',
-        audience: '2nd & 3rd Year (CSE, IT, AIML, AIDS, CSE-CS)'
+        audience: 'Open to All'
     },
     {
         date: 'April 11, 2025',
         time: '1:00 PM - 2:30 PM',
         title: 'Technical Quiz',
         venue: 'Room 201',
-        audience: '1st & 2nd Year'
+        audience: '1st Year'
     },
     // Day 
     {
@@ -83,14 +82,14 @@ const timelineData = [
         time: '2:00 PM - 4:00 PM',
         title: 'Project Exhibition Round 2',
         venue: 'CSE & IT Labs',
-        audience: 'Selected candidates'
+        audience: 'Shortlisted Candidates'
     },
     {
         date: 'April 11 , 2025',
         time: '2:00 PM - 4:00 PM',
         title: 'Hacknovate - Round 2',
         venue: 'Room 216',
-        audience: 'Selected Candidates'
+        audience: 'Shortlisted Candidates'
     },
    
     {
@@ -98,7 +97,7 @@ const timelineData = [
         time: '9:00 PM - 2:00 PM',
         title: 'Cyber Games',
         venue: 'Room 216',
-        audience: 'All'
+        audience: 'Open to All'
     },
    
     {
@@ -114,14 +113,14 @@ const timelineData = [
         time: '2:00 PM - 3:30 PM',
         title: 'Project Exhibition Final Round',
         venue: 'Room 101',
-        audience: 'All'
+        audience: 'Shortlisted Candidates'
     },
     {
         date: 'April 12 , 2025',
         time: '2:00 PM - 3:30 PM',
         title: 'Hacknovate - Final Round',
         venue: 'Room 203',
-        audience: 'All'
+        audience: 'Shortlisted Candidates'
     },
    
     {
