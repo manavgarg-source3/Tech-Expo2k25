@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
     if (scrollPosition > window.innerHeight / 2) {
         aboutSection.classList.add("visible");
     }
-});
+}); 
 document.addEventListener("DOMContentLoaded", function() {
     const section = document.getElementById("tech-expo-timeline");
     const observer = new IntersectionObserver(entries => {
@@ -25,52 +25,53 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, { threshold: 0.1 });
     observer.observe(section);
-});const timelineData = [
+});
+const timelineData = [
     // Day 1
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '9:00 AM - 10:00 AM',
         title: 'Registration',
         venue: 'Registration Desk',
         audience: 'All'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '10:00 AM - 11:00 AM',
         title: 'Inauguration',    
         venue: 'Room 101',
         audience: 'All'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '11:00 AM - 1:00 AM',
         title: 'Project Exhibition Round 1',
         venue: 'CSE & IT lab',
         audience: '3rd & 4th Year (All Branches)'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '11:00 AM - 1:00 AM',
         title: 'Hacknovate Round 1',
         venue: 'Room 216',
         audience: '1st & 2nd Year'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '12:00 AM - 2:00 AM',
         title: 'Robomania',
         venue: 'Mechanical lab',
         audience: 'Open to All'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '1:00 PM - 2:00 PM',
         title: 'Coding Battle',
         venue: 'Labs',
         audience: 'Open to All'
     },
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '1:00 PM - 2:30 PM',
         title: 'Technical Quiz',
         venue: 'Room 201',
@@ -78,14 +79,14 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     // Day 
     {
-        date: 'April 11, 2025',
+        date: 'May 9, 2025',
         time: '2:00 PM - 4:00 PM',
         title: 'Project Exhibition Round 2',
         venue: 'CSE & IT Labs',
         audience: 'Shortlisted Candidates'
     },
     {
-        date: 'April 11 , 2025',
+        date: 'May 9 , 2025',
         time: '2:00 PM - 4:00 PM',
         title: 'Hacknovate - Round 2',
         venue: 'Room 216',
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
    
     {
-        date: 'April 12 , 2025',
+        date: 'May 10 , 2025',
         time: '9:00 PM - 2:00 PM',
         title: 'Cyber Games',
         venue: 'Room 216',
@@ -101,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
    
     {
-        date: 'April 12 , 2025',
+        date: 'May 10 , 2025',
         time: '1:00 PM - 2:00 PM',
         title: 'Poetic Resonance',
         venue: 'Room 117',
@@ -109,14 +110,14 @@ document.addEventListener("DOMContentLoaded", function() {
     },
    
     {
-        date: 'April 12 , 2025',
+        date: 'May 10 , 2025',
         time: '2:00 PM - 3:30 PM',
         title: 'Project Exhibition Final Round',
         venue: 'Room 101',
         audience: 'Shortlisted Candidates'
     },
     {
-        date: 'April 12 , 2025',
+        date: 'May 10 , 2025',
         time: '2:00 PM - 3:30 PM',
         title: 'Hacknovate - Final Round',
         venue: 'Room 203',
@@ -124,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
    
     {
-        date: 'April 12, 2025',
+        date: 'May 10, 2025',
         time: '3:30 PM Onwards',
         title: 'Prize Distribution',
         venue: 'Room 101',
